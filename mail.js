@@ -6,15 +6,15 @@ const recipients = [
 
 
   
-  // ...up to 20
+  // ...up to 20 recipients mail i`d
 ];
 
 // Create a transporter object using Gmail
 const transporter = nodemailer.createTransport({
   service: 'gmail',
   auth: {
-    user: 'sagarhr8853@gmail.com',
-    pass: "ogkv jnmg xsfw qdjx" , // Use App Password if 2FA is on
+    user: '  '// mail id
+    pass: "  " , // Use App Password if 2FA is on
   },
 });
 const abc = `
@@ -30,7 +30,7 @@ Sagar HR
 
 // text for mail 
 const mailOptions = {
-  from: '"Sagar HR" <sagarhr8853@gmail.com>',
+  from: '"Sagar HR" <peson@gmail.com>',
   subject: 'Join Us at Molecules: Enjoy Up to 50% Off This Week!',     // text for subject
   text: abc
 };
