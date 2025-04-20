@@ -1,2 +1,2 @@
-user: 'sagarhr8853@gmail.com'
-pass: 'ogkv jnmg xsfw qdjx'
+user: '  ' // Gamil for sending mails
+pass: '  '  // Gmail app password 
